@@ -1,0 +1,80 @@
+
+
+.login
+{
+    width: 35vw;
+    margin: auto;
+    margin-top: 10.5vh;
+    background-color: black;
+    color: white;
+    border-radius: 1.3vw;
+    box-shadow: 0 0 2px 2px #fbfcff;
+    height: 65vh;
+    transition: 0.5s;
+    position: fixed;
+   left: 32.5vw;
+   z-index: 10;
+}
+.login h1
+{
+  text-align: center;
+  position: relative;
+  top: 6vh;
+  font-size: 3vw;
+  text-decoration: underline;
+  
+}
+.login input
+{
+  width: 22vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+  outline: none;
+  margin-top: 1.7vh;
+  margin-left: 13.5vh;
+}
+.login_button
+{
+  width: 22.8vw;
+  height: 7vh;
+  background-color: red;
+  color: white;
+  font-size: 1.3vw;
+  border-radius: 1vw;
+  margin-top: 5vh;
+  margin-left: 13.5vh;
+  cursor: pointer;
+}
+.login_button:hover
+{
+  background-color: rgb(190, 15, 15);
+}
+ .proute
+ {
+  text-align: center;
+  cursor: pointer;
+ }
+ .cut_login
+ {
+    width: 3vw;
+    font-size: 2.5vw;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    background-color: transparent;
+    right: 1.6vw;
+    cursor: pointer;
+
+ }
+ @media screen and (max-width:675px) {
+    .login
+    {
+        width: 43vw;
+    }
+ }
+ @media screen and (max-width:375px) {
+    .login
+    {
+        width: 55vw;
+    }
+ }
