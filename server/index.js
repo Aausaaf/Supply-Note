@@ -20,8 +20,9 @@ app.use((req, res, next) => {
 
 app.use(userRouter);
 app.use(urlrouter)
-
-
+//1660918125328
+const data = new Date()
+console.log(data.getDate())
 connectDB().then(()=>{
     app.listen(port, ()=> {
         console.log(`Server is running on port ${port}`);

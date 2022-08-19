@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './page/Home';
 import {Routes,Route} from 'react-router-dom'
-import Login from './component/Login';
-import Signup from './component/signup';
+import Login from './component/Login/Login';
+import Signup from './component/Signup/signup';
 function App() {
   return (
    <>

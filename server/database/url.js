@@ -9,8 +9,13 @@ const UrlSchema = new mongoose.Schema({
     shortId:{
         type:String,
         required:true
+    },
+    expiry:{
+        type:Object,
+
     }
 })
 
 const Shorturl = mongoose.model('Short',UrlSchema)
+
 module.exports = {Shorturl}

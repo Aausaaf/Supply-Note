@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
-import Searchurl from '../component/Searchurl'
+import Searchurl from '../component/Search/Searchurl'
 
 const Home = () => {
-    
+   
  
   return (
    <>
